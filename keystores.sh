@@ -11,7 +11,7 @@ keytool -genkey \
 -keysize 2048 \
 -storepass $3 \
 -validity 365 \
--dname "cn=Bancolombia.com.co, ou=VICEPRESIDENCIA_DE_TECNOLOGIA, o=Bancolombia, c=CO"
+-dname "cn=gcode.com.co, ou=VICEPRESIDENCIA_DE_TECNOLOGIA, o=gcode, c=CO"
 
 # Muestra el contenido del keystore
 keytool -list -keystore $1/$2 
